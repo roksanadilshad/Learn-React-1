@@ -6,21 +6,21 @@ export default function Batsman(){
     const [four, setfour] = useState(0);
 
     const handleSingle = () => {
-        const newSingle = runs + 1;
-        setRun(newSingle)
+        //const newSingle = runs + 1;
+        setRun(runs + 1)
     }
     const handleFour = () => {
-        const newfour = runs + 4;
-        const countfour = four + 1;
-        setfour(countfour);
-        setRun(newfour)
+        // const newfour = runs + 4;
+        // const countfour = four + 1;
+        setfour(four + 1);
+        setRun(runs + 4)
     }
     const handleSix = () => {
-        alert('Got Six')
-        const newSix = runs + 6;
-        const countSix = six + 1;
-        setSix(countSix);
-        setRun(newSix)
+       // alert('Got Six')
+        // const newSix = runs + 6;
+        // const countSix = six + 1;
+        setSix(six + 1);
+        setRun(runs + 6)
     }
     return (
         <div>
