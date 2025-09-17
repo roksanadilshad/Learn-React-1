@@ -1,6 +1,7 @@
 import Count from './count';
 import Batsman from './batsman';
 import Users from './user';
+import Click from './click';
 import './App.css'
 import { Suspense } from 'react';
 import Friends from './friends';
@@ -33,6 +34,7 @@ function App() {
   }
   return (
     <>
+    <Click></Click>
     <Suspense fallback={<p>Vo aaa rahi hai.....</p>}><Friends friendsPromise={friendsPromise}></Friends></Suspense>
      <Suspense fallback={<h3>Loading...</h3>}>
     <Users usersPromise={usersPromise}></Users>

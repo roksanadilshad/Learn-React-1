@@ -1,5 +1,3 @@
-import Addres from "./addres";
-
 export default function Friend({friend}){
 
     const {name: parentName, address: {street, suite, city, zipcode}, company: {name: childName, catchphrase, bs}, email, phone, username,website} = friend;
