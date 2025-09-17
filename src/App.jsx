@@ -34,6 +34,7 @@ function App() {
   }
   return (
     <>
+    
     <Click></Click>
     <Suspense fallback={<p>Vo aaa rahi hai.....</p>}><Friends friendsPromise={friendsPromise}></Friends></Suspense>
      <Suspense fallback={<h3>Loading...</h3>}>

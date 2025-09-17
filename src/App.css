@@ -47,3 +47,11 @@
   padding: 40px;
   border-radius: 20px;
 }
+.click{
+ border: 2px solid rgb(240, 140, 156);
+  margin: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  background:  rgb(240, 140, 156);
+
+}
